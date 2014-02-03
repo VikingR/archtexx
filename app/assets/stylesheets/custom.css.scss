@@ -1,0 +1,62 @@
+@import "bootstrap";
+
+/* Adding the Cuprum font */
+@font-face {
+  font-family: 'Cuprum';
+  src:url('Cuprum-Regular.ttf');
+  src:url('Cuprum-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Universal CSS for layout */
+
+body {
+  font-family: 'Cuprum';
+  padding-top: 60px;
+}
+
+.jumbotron {
+  text-align: center;
+}
+
+/* Contact Page */
+.jumbotron div {
+  h2 {
+  	font-size: 1.5em;
+  	text-transform: uppercase;
+    letter-spacing: 0.2em;
+  }
+  p {
+  	font-size: 1em;
+  }	
+}
+
+/* Footer partial */
+
+footer {
+	border-top: 1px solid #BF1B1B;
+	color: #999;
+	font-size: 1em;
+
+	a {
+	  color: #555;
+	  &:hover {
+	    color: #222;
+	  }
+	}
+
+	small {
+	  float: left;
+	}
+
+	ul {
+	  float:right;
+	  list-style: none;
+
+	  li {
+	    float: left;
+	  }
+	}
+	
+}

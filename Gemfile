@@ -26,13 +26,13 @@ gem 'turbolinks', '2.2.0'
 gem 'jbuilder', '2.0.2'
 
 group :development, :test do
-  gem "rspec-rails", "2.14.1"
+  gem 'rspec-rails', '2.13.1'
 end
 
 group :test do
   # Capybara, including its dependency	
-  gem "capybara", "2.2.1"
-  gem "selenium-webdriver", "2.39.0"
+  gem 'selenium-webdriver', '2.39.0'
+  gem 'capybara', '2.2.0'
   # Factory Girl for generating test user in the DB
   gem "factory_girl_rails", "4.3.0"
 end
