@@ -10,7 +10,7 @@ describe "StaticPages" do
     before { visit root_path }
 
     it { should have_link('Contact', href: '/contact') }
-    it { should have_button('Sign in', href: '#') }
+    it { should have_link('Sign in') }
 
     it { should have_title("#{base_title}") }
     it { should_not have_title("#{base_title} |") }
